@@ -2,12 +2,19 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-#myname{
+.top-header{
     color: rgb(245, 104, 10);
     font-size: 40px;
 }
+.ex-h3{
+    color: rgb(245, 104, 10);
+    font-size: 20px;
+}
+.ex-h1{
+    font-size: xx-large;
 
-section{
+}
+.flex-container{
     display: flex;
     margin-bottom: 10px;
 }
@@ -20,7 +27,7 @@ section{
 .half-width{
     width: 50%;
     padding-left: 5%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .half-width img{
@@ -30,7 +37,7 @@ section{
 
 .hire-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(2, 61, 2), rgb(60, 141, 60));
+    background-image: linear-gradient(rgb(223, 158, 84), rgb(170, 81, 9));
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
@@ -58,4 +65,31 @@ section{
 }
 p{
     text-align: justify;
+}
+.ex-box{
+    box-shadow: 5px 5px 15px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+.ex-h1-2{
+    padding-left: 90px;
+}
+.ex-area{
+  margin-bottom: 35px;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#web{
+    border-left: 9px solid;
+    border-image: linear-gradient(#eea159d8, #8a4b03) 30;
+    border-image-slice: 1;
+}
+
+#intern{
+    border-left: 9px solid;
+    border-image: linear-gradient(#f06969, #be2929) 30;
+    border-image-slice: 1;
 }
