@@ -1,8 +1,61 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 #myname{
-    color: darksalmon;
+    color: rgb(245, 104, 10);
+    font-size: 40px;
+}
+
+section{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+}
+
+.half-width img{
+    width: 70%;
+    margin-top: 15px;
+}
+
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(2, 61, 2), rgb(60, 141, 60));
+    padding: 10px;
     font-size: 25px;
-    
+    border-radius: 5px;
+    font-weight: ;
+    color: white;
+    font-weight: 700px;
+
+
+}
+
+.download_button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(17, 6, 179), rgb(54, 194, 230));
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: ;
+    color: white;
+    font-weight: 700px;
+}
+.middle-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    text-align: justify;
 }
