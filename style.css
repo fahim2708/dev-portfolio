@@ -37,11 +37,10 @@ body{
 
 .hire-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(223, 158, 84), rgb(170, 81, 9));
+    background-image: linear-gradient(rgb(101, 199, 238), rgb(25, 4, 83));
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px;
-    font-weight: ;
     color: white;
     font-weight: 700px;
 
@@ -50,7 +49,7 @@ body{
 
 .download_button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(17, 6, 179), rgb(54, 194, 230));
+    background-image: linear-gradient(rgb(101, 199, 238), rgb(25, 4, 83));
     padding: 10px;
     font-size: 25px;
     border-radius: 5px;
@@ -69,12 +68,12 @@ p{
 .ex-box{
     box-shadow: 5px 5px 15px grey;
     width: 40%;
-    margin-left: 5%;
+    margin-left: 6%;
     margin-right: 5%;
     padding: 15px;
 }
 .ex-h1-2{
-    padding-left: 90px;
+    padding-left: 110px;
 }
 .ex-area{
   margin-bottom: 35px;
@@ -84,12 +83,26 @@ p{
 }
 #web{
     border-left: 9px solid;
-    border-image: linear-gradient(#eea159d8, #8a4b03) 30;
+    border-image: linear-gradient(#59ee92d8, #034617) 30;
     border-image-slice: 1;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    
 }
 
 #intern{
     border-left: 9px solid;
-    border-image: linear-gradient(#f06969, #be2929) 30;
+    border-image: linear-gradient(#ee8181, #720202) 30;
     border-image-slice: 1;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+}
+footer{
+    background-image: linear-gradient(rgb(223, 158, 84), rgb(170, 81, 9));
 }
